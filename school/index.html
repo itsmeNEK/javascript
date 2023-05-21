@@ -24,10 +24,10 @@
           <label for="year_level" class="form-label">Year Level</label>
           <select name="" id="year_level" class="form-control">
             <option hidden>Select Year Level</option>
-            <option value="1">1st Year Level</option>
-            <option value="2">2nd Year Level</option>
-            <option value="3">3rd Year Level</option>
-            <option value="4">4th Year Level</option>
+            <option value="1st">1st Year Level</option>
+            <option value="2nd">2nd Year Level</option>
+            <option value="3rd">3rd Year Level</option>
+            <option value="4th">4th Year Level</option>
           </select>
           <label for="units" class="form-label">No. of Units</label>
           <input
@@ -45,7 +45,33 @@
           </div>
           <button type="submit" id="submit" class="btn">Calculate</button>
         </div>
+        <div class="card-footer" id="result">
+          <h2>Total Tuition Fee</h2>
+          <table class="my-table">
+            <tr>
+              <td class="text-start">Student Name</td>
+              <td class="text-end" id="stud_name"></td>
+            </tr>
+            <tr>
+              <td class="text-start">Student Year Level</td>
+              <td class="text-end" id="stud_year_level"></td>
+            </tr>
+            <tr>
+              <td class="text-start">Number of Units</td>
+              <td class="text-end" id="stud_units"></td>
+            </tr>
+            <tr>
+              <td class="text-start">Laboratory</td>
+              <td class="text-end" id="stud_lab"></td>
+            </tr>
+            <tr>
+              <td class="text-start">Total</td>
+              <td class="text-end" id="stud_total"></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
+    <script src="School.js"></script>
   </body>
 </html>

@@ -20,6 +20,18 @@
     padding: 10px;
 }
 
+.card .card-footer {
+    background-color: #939393;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.card .card-footer h2 {
+    margin: 0;
+    color: white;
+    padding: 10px;
+}
+
 .card .card-body {
     padding: 15px;
 }
@@ -54,4 +66,22 @@
 .btn:hover {
     background-color: #d8d8d8;
     color: #939393;
+}
+
+.my-table {
+    width: 100%;
+    padding: 5px 10px;
+    color: white;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.my-table td {
+    padding: 5px;
 }
