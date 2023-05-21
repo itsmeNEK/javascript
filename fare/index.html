@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fare Object</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <label for="distance">Distance</label>
-    <input type="text" id="distance" />
-    <br />
-    <br />
-    <label for="age">Age</label>
-    <input type="text" id="age" />
-    <br />
-    <br />
-    <button id="btn_calc">Calculate Fare</button>
-    <p id="fare"></p>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-header">
+          <h2>School Object</h2>
+        </div>
+        <div class="card-body">
+          <label class="form-label" for="distance">Distance</label>
+          <input class="form-control" type="text" id="distance" />
+          <label class="form-label" for="age">Age</label>
+          <input class="form-control" type="text" id="age" />
+          <br>
+          <button id="btn_calc" class="btn">Calculate Fare</button>
+          <p id="fare"></p>
+        </div>
+      </div>
+    </div>
     <script src="fare.js"></script>
   </body>
 </html>
