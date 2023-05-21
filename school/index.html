@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Object</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-header">
+          <h2>School Object</h2>
+        </div>
+        <div class="card-body">
+          <label for="Name" class="form-label">Student Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Student Name"
+          />
+          <label for="year_level" class="form-label">Year Level</label>
+          <select name="" id="year_level" class="form-control">
+            <option hidden>Select Year Level</option>
+            <option value="1">1st Year Level</option>
+            <option value="2">2nd Year Level</option>
+            <option value="3">3rd Year Level</option>
+            <option value="4">4th Year Level</option>
+          </select>
+          <label for="units" class="form-label">No. of Units</label>
+          <input
+            type="text"
+            id="units"
+            class="form-control"
+            placeholder="No. of Units"
+          />
+          <p>Laboratory</p>
+          <div class="radio-inline">
+            <input type="radio" name="laboratory" id="yes" value="yes" />
+            <label for="yes">With Laboratory</label>
+            <input type="radio" name="laboratory" id="no" value="no" />
+            <label for="no">Without Laboratory</label>
+          </div>
+          <button type="submit" id="submit" class="btn">Calculate</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
